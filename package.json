@@ -1,0 +1,47 @@
+{
+  "name": "hardware-rentals",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host --open",
+    "build": "tsc --noEmit && vite build",
+    "export": "vite build --mode export",
+    "start": "bini-server",
+    "preview": "vite preview --host --open",
+    "type-check": "tsc --noEmit",
+    "lint": "oxlint src",
+    "format": "oxfmt src",
+    "check": "oxlint src && oxfmt src && tsc --noEmit"
+  },
+  "dependencies": {
+    "avatar64": "^1.1.0",
+    "bini-env": "1.0.9",
+    "bini-overlay": "^1.0.6",
+    "bini-router": "^1.0.38",
+    "bini-server": "1.0.3",
+    "firebase": "^12.12.0",
+    "formidable": "^3.5.4",
+    "hono": "^4.12.14",
+    "leaflet": "^1.9.4",
+    "nodemailer": "^8.0.5",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-router-dom": "^7.14.1",
+    "tesseract.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/leaflet": "^1.9.21",
+    "@types/node": "^25.6.0",
+    "@types/nodemailer": "^8.0.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "bini-export": "^1.0.2",
+    "oxfmt": "latest",
+    "oxlint": "latest",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.9"
+  }
+}

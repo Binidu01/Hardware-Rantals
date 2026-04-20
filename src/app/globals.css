@@ -1,0 +1,35 @@
+@import 'tailwindcss';
+
+:root {
+  --color-primary: #ff6a00;
+  --color-primary-hover: #e65c00;
+  --color-bg: #ffffff;
+  --color-text: #0f0f0f;
+  --color-muted: #6b7280;
+  --color-border: #e5e5e5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family:
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh;
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+#root {
+  min-height: 100vh;
+}

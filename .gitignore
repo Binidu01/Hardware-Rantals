@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+.DS_Store
+Thumbs.db
+*.log
+
+# bini-router generated production entry — do not edit directly
+netlify/edge-functions/api.ts
